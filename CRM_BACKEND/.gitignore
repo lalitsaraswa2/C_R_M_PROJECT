@@ -1,3 +1,94 @@
+# Node.js dependencies
+node_modules/
+
+# Environment files (sensitive data)
+.env
+.env.local
+.env.*.local
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+dist/
+build/
+tmp/
+out/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm package lock files (optional)
+package-lock.json
+yarn.lock
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+git add src/
+
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next
+
+# Lerna
+lerna-debug.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+
+
+
+
+
+
+
+
+
+# echo "# crm_project" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/lalitsaraswa2/crm.git
+# git push -u origin main
+# …or push an existing repository from the command line
+# git remote add origin https://github.com/lalitsaraswa2/crm.git
+# git branch -M main
+# git push -u origin main
+
+
+
+
+
+
+
+
+
+
 # .gitignore
 .env
 .env.local
@@ -113,7 +204,3 @@ coverage/
 
 
 
-git add src/
-
-# CRM_BACKEND/
-src/
