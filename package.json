@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "name": "fullstack-app",
+  "private": true,
+   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "CRM_FRONTEND": "cd CRM_FRONTEND && npm run dev",
+    "CRM_BACKEND": "cd CRM_BACKEND && node index.js",
+    "start": "concurrently -n \"CRM_FRONTEND, CRM_BACKEND\" -c \"bgBlue, bgRed\" \"npm run CRM_FRONTEND\" \"npm run CRM_BACKEND\"",
+    "dev": "concurrently -n \"CRM_FRONTEND, CRM_BACKEND\" -c \"bgBlue, bgRed\" \"npm run CRM_FRONTEND\" \"npm run CRM_BACKEND\""
+
+  }
+  }
+
+
